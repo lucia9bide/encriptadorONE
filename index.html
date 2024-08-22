@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="body">
+        <header clas="container_header">
+        <div class="header">
+            <a href="https://www.aluracursos.com/">
+                <img src="alura.svg" classs="logo-alura" alt="logo-alura">
+            </a>
+            <a href="https://www.youtube.com/watch?v=lUTSEEncnfg">
+                <img src="minenite.png" class="minenite" alt="minenite">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <section class="left">
+                <textarea class="ingreso-de-texto" placeholder="Ingrese el texto aquí"></textarea>
+                <div clas="left-footer">
+                    <p class="aviso" id="aviso">
+                       <img src="cuidado.png" alt="aviso">
+                        <snap class="left-footer-aviso">Solo se admiten letras minúsculas y sin tildes.</snap> 
+                    </p>
+                    <div class="botones">
+                        <button class="boton-encriptar" onclick="btnEncriptar()"> Encriptar </button>
+                        <button class="boton-desencriptar" id="boton-desencriptar" onclick="btnDesncriptar()"> Desencriptar </button> 
+                    </div>
+                </div>
+            </section>
+            <div class="right" id="right">
+                <div class="resultado">
+                    <p class="textos" id="textos">El resultado se mostrará debajo</p>
+                    <textarea class="mensaje" id="resultado" cols="20" rows="10" readonly></textarea>
+                    <button class="boton-copiar bn-ocultar" id="bnCopiar" onclick="copiarResultado()">
+                            Copiar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="desarrollado">
+            <a href="https://github.com/lucia9bide">
+                <img class="image-gh" src="github-logo.png" alt="GitHub logo">
+            </a>
+            <p>Desarrollado por <usersw>@lucia9bide</user></p>
+        </div>
+    </footer>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
