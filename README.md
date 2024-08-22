@@ -2,6 +2,6 @@ Esta es mi página para el challenge encriptador de texto de Alura. El reto cons
 Versión pantallas tipo escritorio: ![image](https://github.com/user-attachments/assets/d7e1670c-cd78-4fe6-8f5c-b78536826c7e)
 Versión de móviles y demás: 
 
-![image](https://github.com/user-attachments/assets/85d77180-c12b-491a-bf30-fa08dd77549b) ![image](https://github.com/user-attachments/assets/237edaf3-ce79-4775-8a39-c42c1770c29a) ![image](https://github.com/user-attachments/assets/be83ce09-a98c-468b-b880-38569ae4053f)
+![image](https://github.com/user-attachments/assets/85d77180-c12b-491a-bf30-fa08dd77549b) ![image](https://github.com/user-attachments/assets/be83ce09-a98c-468b-b880-38569ae4053f)
 
 
